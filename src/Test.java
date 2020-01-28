@@ -4,13 +4,15 @@ public class Test {
         Rectangle rectangle = new Rectangle(8,6);
         Triangle triangle = new Triangle(9,4,6);
         Circle circle = new Circle(7);
+        double squareArea = square.squareArea(square);
+        double rectPerimeter = rectangle.rectPerimeter(rectangle);
+        double trianglePerimeter = triangle.trianglePerimeter(triangle);
+        double circleArea = circle.circleArea(circle);
 
-        ShapeCalculator shapeCalculator = new ShapeCalculator();
-        System.out.println("- Area of square is " + shapeCalculator.squareArea(square) + " cm^2");
-        System.out.println("- Area of circle is " + shapeCalculator.circleArea(circle) + " cm^2");
-        System.out.println("- Perimeter of triangle is " + shapeCalculator.trianglePerimeter(triangle) + " cm");
-        System.out.println("- Perimeter of rectangle is " + shapeCalculator.rectPerimeter(rectangle) + " cm");
-
+        System.out.println("- Area of square is " + squareArea + " cm^2");
+        System.out.println("- Perimeter of triangle is " + trianglePerimeter + " cm");
+        System.out.println("- Perimeter of rectangle is " + rectPerimeter + " cm");
+        System.out.println("- Area of circle is " + circleArea + " cm^2");
     }
 }
 

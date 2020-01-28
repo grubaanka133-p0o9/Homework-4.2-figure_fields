@@ -5,5 +5,8 @@ public class Rectangle {
         this.a = a;
         this.b = b;
     }
+    double rectPerimeter(Rectangle rectangle) {
+        return (rectangle.a + rectangle.b) * 2;
+    }
 }
 
