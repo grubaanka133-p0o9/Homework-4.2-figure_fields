@@ -6,8 +6,8 @@ public class Triangle {
         this.b = b;
         this.c = c;
     }
-    double trianglePerimeter(Triangle triangle) {
-        return triangle.a + triangle.b + triangle.c;
+    double trianglePerimeter() {
+        return this.a + this.b + this.c;
     }
 }
 

@@ -4,10 +4,10 @@ public class Test {
         Rectangle rectangle = new Rectangle(8,6);
         Triangle triangle = new Triangle(9,4,6);
         Circle circle = new Circle(7);
-        double squareArea = square.squareArea(square);
-        double rectPerimeter = rectangle.rectPerimeter(rectangle);
-        double trianglePerimeter = triangle.trianglePerimeter(triangle);
-        double circleArea = circle.circleArea(circle);
+        double squareArea = square.squareArea();
+        double rectPerimeter = rectangle.rectPerimeter();
+        double trianglePerimeter = triangle.trianglePerimeter();
+        double circleArea = circle.circleArea();
 
         System.out.println("- Area of square is " + squareArea + " cm^2");
         System.out.println("- Perimeter of triangle is " + trianglePerimeter + " cm");
